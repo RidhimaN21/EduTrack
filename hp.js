@@ -42,6 +42,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.querySelector('a[href="#adminLoginSection"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    const adminLoginSection = document.getElementById('adminLoginSection');
+    adminLoginSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('a[href="#userLoginSection"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    const userLoginSection = document.getElementById('userLoginSection');
+    userLoginSection.scrollIntoView({ behavior: 'smooth' });
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
