@@ -1,0 +1,230 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .course {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .course img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .course-details {
+    padding: 20px;
+  }
+  
+  .course-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .course-details p {
+    margin-bottom: 8px;
+  }
+  
+  .register-btn,
+  .delete-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-btn:hover,
+  .delete-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .contact {
+    background-color: rgb(54, 3, 155); /* Bright blue */
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .contact p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact textarea {
+    resize: vertical;
+  }
+  
+  .contact button {
+    width: 100%;
+    padding: 12px;
+    background-color: #fff; /* White */
+    color: #007bff; /* Bright blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #0056b3; /* Darker blue */
+    color: #fff;
+  }
+
+
+
+
+
+  .navbar{
+    /* width:100%; */
+    background-color:  rgb(54, 3, 155);
+    color: #fff;
+    /* position:absolute; */
+    /* top:0; */
+    /* right:50px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    height:30px;
+  }
+  header {
+    background-color:  rgb(54, 3, 155); 
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+  }
+  .main-img{
+    filter: brightness(1);
+    height:50px;
+    width:50px;
+
+  }
+  .head-big{
+    color:rgb(0, 191, 255);
+    display:inline;
+    font-weight: bolder;
+    filter: brightness(1.2);
+  }
+  .head-text{
+    display:inline;
+    font-weight: bolder;
+    filter: brightness(1.2);
+  }
+  .home{
+    margin-left: 600px;
+  }
+  .para{
+    color:#0056b3;
+  }
+  .para1{
+    color:#0056b3;
+    margin-left:0px;
+  }
+  .btn{
+    border-radius: 30px;
+      background-color: rgb(160, 182, 189);
+      width:100px;
+      height:45px;
+      color:black;
+  }
+  .btn:hover{
+    background-color:rgb(54, 3, 155);
+    color:white;
+  }
