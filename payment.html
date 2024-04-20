@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <h1 class="head-text"><h1 class="head-big">E</h1><h1 class="head-text" >du</h1><h1 class="head-big">T</h1><h1 class="head-text">rack</h1></h1>
+      <li class="home"><a href="#">Home</a></li>
+      <li><a href="#">Course</a></li>
+      <li><a href="#">My Courses</a></li>
+      <li><a href="coursehistory.html">Course History</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><button class="btn"><a href="payment.html" target="_blank">Payment</a></button></li>
+      <li><button class="btn"><a href="homepage.html" target="_blank">Logout</a></button></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="container">
+    <h2>Payment</h2>
+    <div class="payment-form">
+      <form id="paymentForm">
+        <div class="form-group">
+          <label for="totalAmount">Total Amount Due:</label>
+          <input type="text" id="totalAmount" name="totalAmount" disabled>
+        </div>
+        <div class="form-group">
+          <label for="paymentMethod">Select Payment Method:</label>
+          <select id="paymentMethod" name="paymentMethod">
+            <option value="creditCard">Credit Card</option>
+            <option value="paypal">PayPal</option>
+          </select>
+        </div>
+        <button type="submit">Pay Now</button>
+      </form>
+    </div>
+  </div>
+  <section id="contact" class="contact">
+    <div class="contain">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or inquiries, feel free to contact us.</p>
+      <form action="#" method="POST">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 EduTrack. All rights reserved.</p>
+  </footer>
+
+  <script src="payment.js></script>
+</body>
+</html>
