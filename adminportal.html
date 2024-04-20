@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Portal</title>
+  <link rel="stylesheet" href="adminportal.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <h1 class="head-text"><h1 class="head-big">E</h1><h1 class="head-text" >du</h1><h1 class="head-big">T</h1><h1 class="head-text">rack</h1></h1>
+        <li class="home"><a href="#">Home</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">My Courses</a></li>
+        <li><a href="coursehistory.html">Course History</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><button class="btn"><a href="payment.html" target="_blank">Payment</a></button></li>
+        <li><button class="btn"><a href="homepage.html" target="_blank">Logout</a></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Post Course Form Section -->
+    <div class="post-course-form">
+      <h2>Post Course Details and Schedule</h2>
+      <form id="postCourseForm">
+        <div class="form-group">
+          <label for="courseTitle">Course Title:</label>
+          <input type="text" id="courseTitle" name="courseTitle" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="instructor">Instructor:</label>
+          <input type="text" id="instructor" name="instructor" required>
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration:</label>
+          <input type="text" id="duration" name="duration" required>
+        </div>
+        <div class="form-group">
+          <label for="price">Price:</label>
+          <input type="text" id="price" name="price" required>
+        </div>
+        <div class="form-group">
+          <label for="schedule">Schedule:</label>
+          <input type="text" id="schedule" name="schedule" required>
+        </div>
+        <button type="submit">Post Course</button>
+      </form>
+    </div>
+
+    <!-- Course List Section -->
+    <div class="course-list-section">
+      <h2>View List of Courses Posted</h2>
+      <ul id="courseList" class="course-list">
+        <!-- Courses will be dynamically populated here -->
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- Post Course Form Section -->
+    <div class="post-course-form">
+      <h2>Modify Course Details and Schedule</h2>
+      <form id="postCourseForm">
+        <div class="form-group">
+          <label for="courseTitle">Course Title:</label>
+          <input type="text" id="courseTitle" name="courseTitle" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="instructor">Instructor:</label>
+          <input type="text" id="instructor" name="instructor" required>
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration:</label>
+          <input type="text" id="duration" name="duration" required>
+        </div>
+        <div class="form-group">
+          <label for="price">Price:</label>
+          <input type="text" id="price" name="price" required>
+        </div>
+        <div class="form-group">
+          <label for="schedule">Schedule:</label>
+          <input type="text" id="schedule" name="schedule" required>
+        </div>
+        <button type="submit">Post Course</button>
+      </form>
+    </div>
+
+
+    <div class="course-list-section">
+      <h2>View List of Courses Posted</h2>
+      <ul class="course-list">
+        <li>
+          <div class="course-info">
+            <h3>Course Title 1</h3>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Instructor: John Doe</p>
+            <p>Duration: 6 weeks</p>
+            <p>Price: $99</p>
+            <p>Schedule: Monday & Wednesday, 6:00 PM - 8:00 PM</p>
+          </div>
+          <button class="view-details-btn">View Details</button>
+        </li>
+        <li>
+          <div class="course-info">
+            <h3>Course Title 2</h3>
+            <p>Description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Instructor: Jane Smith</p>
+            <p>Duration: 8 weeks</p>
+            <p>Price: $149</p>
+            <p>Schedule: Tuesday & Thursday, 7:00 PM - 9:00 PM</p>
+          </div>
+          <button class="view-details-btn">View Details</button>
+        </li>
+        <!-- Add more courses as needed -->
+      </ul>
+    </div>
+    <div class="delete-course-section">
+      <h2>Delete a Posted Course</h2>
+      <form>
+        <div class="form-group">
+          <label for="search-course">Search Course:</label>
+          <input type="text" id="search-course" name="search-course" placeholder="Enter course title">
+          <button type="submit">Search</button>
+        </div>
+        <div class="course-details">
+          <h3>Course Details</h3>
+          <p><strong>Course Title:</strong> Course Title</p>
+          <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><strong>Instructor:</strong> John Doe</p>
+          <p><strong>Duration:</strong> 6 weeks</p>
+          <p><strong>Price:</strong> $99</p>
+          <p><strong>Schedule:</strong> Monday & Wednesday, 6:00 PM - 8:00 PM</p>
+          <button type="button" class="delete-course-btn">Delete Course</button>
+        </div>
+      </form>
+    </div>
+    <div class="registered-users-section">
+      <h2>View List of Registered Users for Any Course</h2>
+      <form>
+        <div class="form-group">
+          <label for="search-course">Search Course:</label>
+          <input type="text" id="search-course" name="search-course" placeholder="Enter course title">
+          <button type="submit">Search</button>
+        </div>
+        <div class="registered-users">
+          <h3>Registered Users</h3>
+          <ul class="user-list">
+            <li>User 1</li>
+            <li>User 2</li>
+            <li>User 3</li>
+            <!-- Add more users as needed -->
+          </ul>
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 EduTrack. All rights reserved.</p>
+    </footer>
+
+  <script src="adminportal.js"></script>
+</body>
+</html>
