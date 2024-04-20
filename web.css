@@ -104,15 +104,21 @@ body {
     width:40px;
     display: inline;
 }
-.btn{
-    border-radius: 30px;
-    background-color: white;
-    width:100px;
-    height:45px;
+.btn {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width:110px;
+  height:30px;
 }
-.btn:hover{
-  background-color:rgb(54, 3, 155);
-  color:white;
+
+.btn:hover {
+  background-color: #0056b3;
 }
   
   .login-form {

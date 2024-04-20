@@ -89,13 +89,16 @@
   
   
   .btn {
+    text-align: center;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: blue;
+    border-radius: 30px;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    width:80px;
+    height:30px;
   }
   
   .btn:hover {
@@ -217,14 +220,14 @@
     color:#0056b3;
     margin-left:0px;
   }
-  .btn{
+  /* .btn{
     border-radius: 30px;
       background-color: rgb(160, 182, 189);
       width:100px;
       height:45px;
-      color:black;
+      color:;
   }
   .btn:hover{
     background-color:rgb(54, 3, 155);
     color:white;
-  }
+  } */
