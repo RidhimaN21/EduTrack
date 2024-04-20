@@ -1,0 +1,284 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  
+  /* Header Styles */
+  .navbar{
+    background-color:  rgb(54, 3, 155);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    height:5vh;
+  }
+  header {
+    background-color:  rgb(54, 3, 155); 
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+  }
+  .main-img{
+    filter: brightness(1);
+    height:50px;
+    width:50px;
+
+  }
+  .head-big{
+    color:rgb(0, 191, 255);
+    display:inline;
+    font-weight: bolder;
+    filter: brightness(1.2);
+  }
+  
+  .hero {
+    background-image: url('img.jpg'); 
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    height:528px;
+    
+  }
+  .head-text{
+    display:inline;
+    font-weight: bolder;
+    filter: brightness(1.2);
+  }
+  .ht{
+    filter: brightness(1.2);
+  }
+  #abc{
+    margin-left:650px;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 9.6vh;
+    left: 0;
+    width: 100%;
+    height: 84vh;
+  }
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+.asset1{
+    height:40px;
+    width:40px;
+    display: inline;
+}
+.btn{
+    border-radius: 30px;
+    background-color: white;
+    width:100px;
+    height:45px;
+}
+.btn:hover{
+  background-color:rgb(54, 3, 155);
+  color:white;
+}
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    filter: brightness(1);
+  }
+  
+  .login-form form {
+    background-color: #fff; /* White */
+    padding: 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin: 0 40px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 270px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(54, 3, 155); 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #081d34; 
+  }
+  
+  .about {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    
+  }
+  .about-image{
+    position: relative;
+    left:-100px;
+    height:400px;
+    border-radius: 30px;
+    display: inline-block;
+  }
+  .about-text{
+    display:inline-block;
+    height:400px;
+    width:500px;
+    margin-left:50px;
+    position: absolute;
+
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: rgb(54, 3, 155);
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .contact {
+    background-color: rgb(54, 3, 155); /* Bright blue */
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .contact p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact textarea {
+    resize: vertical;
+  }
+  
+  .contact button {
+    width: 100%;
+    padding: 12px;
+    background-color: #fff; /* White */
+    color: #007bff; /* Bright blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #0056b3; /* Darker blue */
+    color: #fff;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .hero h1 {
+      font-size: 28px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .login-form {
+      flex-direction: column;
+    }
+  
+    .login-form form {
+      width: 100%;
+      margin: 0;
+    }
+  
+    nav ul li a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

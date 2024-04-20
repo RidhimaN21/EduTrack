@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Course Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+          <ul>
+            <h1 class="head-text"><h1 class="head-big">E</h1><h1 class="head-text" >du</h1><h1 class="head-big">T</h1><h1 class="head-text">rack</h1></h1>
+            <li><a href='#' id="abc">Home</a></li>
+            <li><a href='#'>Program</a></li>
+            <li><a href='#'>About Us</a></li>
+            <li><a href='#'>Contact Us</a></li>
+            <li><button class='btn'>Sign Up</button></li>
+            <li><button class='btn'>User Login</button></li>
+            <li><button class='btn'>Admin Login</button></li>
+            
+          </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="container">
+      <img class='main-img'src="asset3.png" alt="main">
+      <h1 class="head-text"><h1 class="head-big">E</h1><h1 class="head-text" >du</h1><h1 class="head-big">T</h1><h1 class="head-text">rack</h1></h1>
+      <h1 class="ht">Welcome to our Online Course Management System</h1>
+      <p class="ht">Empower your learning journey with our diverse range of courses</p>
+      <div class="login-form">
+        <form class='con'id="adminLoginForm">
+        <img class='asset1'src="asset2.png" alt="student"></img>
+          <h2 class="admin">Admin Login</h2>
+          <input type="text" placeholder="Username" required>
+          <input type="password" placeholder="Password" required>
+          <button><a href="adminportal.html" target="_blank">Login as Admin</a></button>
+        </form>
+        <form class='con' id="userLoginForm">
+        <img class='asset1'src="asset1.png" alt="student"></img>
+          <h2 class="admin">User Login</h2>
+          <input type="text" placeholder="Username" required>
+          <input type="password" placeholder="Password" required>
+          <button><a href="userportal.html" target="_blank">Login as User</a></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <img class='about-image'src="asset4.jpg" alt="image">
+      <div class="about-text">
+      <h2 >About Us</h2>
+      <p>Welcome to EduTrack, your ultimate destination for seamless online course management. Whether you're an educator or a learner, our platform offers intuitive tools to create, organize, and engage with courses effortlessly. With features like multimedia integration and real-time progress tracking, we're here to revolutionize the way you learn and teach. Join us in breaking down barriers to education – welcome to limitless learning at your fingertips.</p>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or inquiries, feel free to contact us.</p>
+      <form action="#" method="POST">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div className='footer'>
+      <p>@ 2024 EduTrack. All rights reserved</p>
+      
+  </div>
+  </footer>
+
+
+</body>
+</html>
